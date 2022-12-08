@@ -1,0 +1,38 @@
+@import "./header";
+@media (min-width: 40em) {
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $body-color;
+  color: $text-color;
+  font-size: 23px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.content {
+  background: $king-color;
+  min-height: 600px;
+}
+
+.footer {
+  background: $king-color;
+  height: 300px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 660px) {
+  .wrapper {
+    width: 450px;
+    background-color: bisque;
+    font-size: 19px;
+  }
+  .header {
+    height: 100px;
+    border-radius: 3px;
+    width: 450px;
+  }
+}
